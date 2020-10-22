@@ -1,0 +1,6 @@
+<div class="message-list">
+  <div *ngFor="let message of messages$ | async" class="message">
+    <div class="message-author">{{message.author}}</div>
+    <div class="message-body">{{message.message}}</div>
+  </div>
+</div>

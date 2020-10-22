@@ -1,0 +1,19 @@
+div.message {
+  max-width: 300px;
+  padding: 15px;
+  background-color: #EEEEEE;
+  border-radius: 10px;
+
+  .message-author {
+    margin-bottom: 5px;
+    font-weight: bolder;
+  }
+  .message-body {
+    color: #333333;
+  }
+
+}
+
+div.message + div.message {
+  margin-top: 10px;
+}
